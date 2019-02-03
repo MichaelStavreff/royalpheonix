@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+display: inline-block;
+color: white;
+margin-top: 10px;
+padding-left: 30px;
+font-family: Raleway;
+font-size: 30px;
+}
+
+.navwrapper {
+  background: rgba(30, 30, 30, 0.5);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+}
+
+.navbar {
+  color: white;
+  float: right;
+}
+
+.nav {
+  float: right;
+}
+
+.navbutton {
+  width: 135px;
+}
+
+.navlinkwrapper {
+  color: white;
+}
+
+.navbutton {
+  background: rgba(30, 30, 30, 0);
+  transition: background 0.3s;
+  padding: 20px 40px;
+  font-family: Raleway;
+}
+
+.navbutton:hover {
+  background: rgba(30, 30, 30, .53);
+}
+
+footer {
+  width: 100%;
+  height: 13vh;
+  background: #161616;
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+  font-family: helvetica;
+}
+
+#showcase {
+  background-image: url("homenewkrita.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 85vh;
+}
+
+@media only screen and (max-width: 743px) {
+h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+.navwrapper {
+  background: rgba(30,30,30,0);
+  }
+
+.navbutton {
+  color: #1e1e1e;
+  }
+.navbutton:hover {
+  background: rgba(30, 30, 30, .1);
+  }
+}
+
+.socialmedia {
+  display: inline-block;
+  position: relative;
+  top: 2vh;
+}
+
+.copyright {
+  padding-top: 4vh;
+  font-family: Raleway;
+  color: white;
+}
+
+#twitterlogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+#githublogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
