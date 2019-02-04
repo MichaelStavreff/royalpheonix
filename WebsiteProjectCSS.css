@@ -67,7 +67,14 @@ footer {
 
 section p {
   text-align: center;
-  font-family: helvetica;
+  font-family: Raleway;
+  color: black;
+}
+
+#section1 {
+  float: right;
+  border: 2px red solid;
+  width: 50vh;
 }
 
 #showcase {
@@ -95,6 +102,19 @@ h1 {
 .navbutton:hover {
   background: rgba(30, 30, 30, .1);
   }
+}
+
+.textwrapper {
+  width: 80vh;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+
+.phone {
+  display: block;
+  width: 40vh;
+  height: 46vh;
+  float: left;
 }
 
 .socialmedia {
