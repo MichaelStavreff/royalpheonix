@@ -74,7 +74,7 @@ section p {
 #section1 {
   float: right;
   border: 2px red solid;
-  width: 50vh;
+  width: 50vw;
 }
 
 #showcase {
@@ -104,16 +104,10 @@ h1 {
   }
 }
 
-.textwrapper {
-  width: 80vh;
-  margin: 0 auto;
-  margin-top: 3vh;
-}
-
 .phone {
   display: block;
-  width: 40vh;
-  height: 46vh;
+  width: 400 autopx;
+  height: 480px;
   float: left;
 }
 
